@@ -9,7 +9,7 @@ setTimeout(
 
 
 var characters = {}
-var char_api = "https://gateway.marvel.com:443/v1/public/characters";
+var char_api = "https://gateway.marvel.com:443/v1/public/events/29/characters";
 var public_key = "b501936f0cdd8d3278fc9ec70db1ad7a";
 var private_key = "7c686a1135c99ae7bb45811c5a31f01c4f9d108c";
 var ts = "1";
