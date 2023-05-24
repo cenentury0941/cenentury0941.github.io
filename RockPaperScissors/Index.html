@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/portrait.css">
+    <link rel="stylesheet" href="assets/css/landscape.css">
+    <script src="assets/js/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="PlayArea" id="playarea">
+            <div class="ScoreArea">
+                <div class="ScoreCard"><h2>YOU</h2><h1 id="ps">0</h1></div>
+                <div class="ScoreCard"><h2>CPU</h2><h1 id="cs">0</h1></div>
+            </div>
+            <div class="ButtonArea">
+                <div class="Button rock" id="rb" onclick="Play(0)"></div>
+                <div class="Button paper" onclick="Play(1)" id="pb" ></div>
+                <div class="Button scissors" onclick="Play(2)" id="sb" ></div>
+            </div>
+        </div>
+        <div class="BotRock" id="bot"></div>
+    </body>
+
+</html>

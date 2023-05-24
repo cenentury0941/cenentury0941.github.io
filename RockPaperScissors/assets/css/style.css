@@ -1,0 +1,164 @@
+html, body {
+    display: flex;
+    flex-direction: row;
+    height: 99%;
+    width: 100%;
+    background: #696969;
+    gap: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.BotRock{
+    background-image: url("../images/rock.gif");
+    background-size: cover;
+    height: 97%;
+    width: 45%;
+    transition-duration: 0.5s;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    margin: 10px;
+}
+
+.BotSic{
+    background-image: url("../images/scissors.gif");
+    background-size: cover;
+    height: 97%;
+    width: 45%;
+    transition-duration: 0.5s;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    margin: 10px;
+}
+
+.BotPap{
+    background-image: url("../images/paper.gif");
+    background-size: cover;
+    height: 97%;
+    width: 45%;
+    transition-duration: 0.5s;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    margin: 10px;
+}
+
+.PlayArea{
+    display: flex;
+    flex-direction: column; 
+    height: 97%;
+    width: 97vw;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    transition-duration: 0.5s;
+    flex-shrink: 0;
+    margin: 10px;
+    background: #EEEEEE;
+    border-radius: 15px;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+
+
+
+.ScoreArea{
+    display: flex;
+    flex-direction: row; 
+    height: 50%;
+    width: 100%;
+    background: rgb(141, 130, 255);
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.ButtonArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    height: 50%;
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px #00000069;
+}
+
+
+
+@keyframes RevealBot0 {
+    0% { width: 97vw ; }
+    10% { width: 50vw;  }
+    80% { width: 50vw; }
+    90% { width: 97vw; }
+}
+
+
+@keyframes RevealBot1 {
+    0% { width: 97vw ; }
+    10% { width: 50vw;  }
+    80% { width: 50vw; }
+    90% { width: 97vw; }
+}
+
+.Button{
+    display: flex;
+    height: 25vh;
+    width: 15vw;
+    background: #ffffff;
+    border-radius: 39px;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    transition-duration: 0.1s;
+}
+
+.Button:hover{
+    box-shadow: 0px 0px 10px 5px #000000AA;
+    transform: scale(1.05);
+}
+
+.ScoreCard{
+    display: flex;
+    height: 25vh;
+    width: 15vw;
+    background: #ffffff;
+    border-radius: 39px;
+    box-shadow: 0px 0px 10px 5px #00000039;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ScoreCard > h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10vh;
+    margin: 0px;
+}
+
+
+.ScoreCard > h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    margin: 0px;
+}
+
+.Desel
+{
+    background: #393939;
+    box-shadow: 0px 0px 10px 5px red;
+}
+
+
+.rock{
+    background: url("../images/rock.png");
+    background-size: cover;
+}
+
+.paper{
+    background: url("../images/paper.png");
+    background-size: cover;
+}
+
+.scissors{
+    background: url("../images/scissors.png");
+    background-size: cover;
+}
