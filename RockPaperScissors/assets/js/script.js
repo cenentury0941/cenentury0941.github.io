@@ -8,6 +8,11 @@ var disabled = false;
 
 function Play(choice)
 {
+    if( disabled )
+    {
+        return;
+    }
+
     disabled = true;
 
     var computer_value = Math.floor(Math.random() * 3) ;
@@ -49,17 +54,17 @@ function Play(choice)
 
     if( computerChoice === 0 )
     {
-        document.getElementById("bot").className = "BotRock" ;
+        document.getElementById("bot_container").style.backgroundImage = "url(https://cenentury0941.github.io/RockPaperScissors/assets/images/rock.gif"+"?a="+Math.random() + ")";
     }
 
     if( computerChoice === 1 )
     {
-        document.getElementById("bot").className = "BotPap" ;
+        document.getElementById("bot_container").style.backgroundImage =  "url(https://cenentury0941.github.io/RockPaperScissors/assets/images/paper.gif"+"?a="+Math.random() + ")";
     }
 
     if( computerChoice === 2 )
     {
-        document.getElementById("bot").className = "BotSic" ;
+        document.getElementById("bot_container").style.backgroundImage =  "url(https://cenentury0941.github.io/RockPaperScissors/assets/images/scissors.gif"+"?a="+Math.random() + ")";
     }
 
     document.getElementById("playarea").style.animationName = "RevealBot" + tally ;
@@ -75,6 +80,7 @@ function Play(choice)
         document.getElementById("pb").classList.remove("desel");
         document.getElementById("sb").classList.remove("desel");
 
+ 
         disabled = false;
 
     } , 5000 );
