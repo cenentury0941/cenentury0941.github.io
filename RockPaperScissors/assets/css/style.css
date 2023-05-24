@@ -151,11 +151,7 @@ html, body {
     margin: 0px;
 }
 
-.Desel
-{
-    background: #393939;
-    box-shadow: 0px 0px 10px 5px red;
-}
+
 
 
 .rock{
@@ -171,4 +167,10 @@ html, body {
 .scissors{
     background: url("../images/scissors.png");
     background-size: cover;
+}
+
+.Desel
+{
+    background: #393939;
+    opacity: 0.5;
 }
