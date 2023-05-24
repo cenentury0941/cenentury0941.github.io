@@ -34,7 +34,7 @@ async function getCharacters()
     let hash = md5(tohash);
     console.log(hash);
 
-    char_api += "?ts=1&apikey=" + public_key + "&hash=" + hash + "&limit=6" + "&offset=" + Math.floor(Math.random()*100) ;
+    char_api += "?ts=1&apikey=" + public_key + "&hash=" + hash + "&limit=6" + "&offset=" + Math.floor(Math.random()*39) ;
 
     const response = await fetch(char_api);
     const jsonData = await response.json();
