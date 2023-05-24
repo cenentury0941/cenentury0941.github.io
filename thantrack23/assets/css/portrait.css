@@ -161,9 +161,9 @@
         flex-direction: column;
         height: 75%;
         width: 10vw;
-        min-width: 128px;
+        min-width: 200px;
         border: 5px solid rgba(0, 255, 255, 0.082);
-        transform: translateY(-20vh);
+        transform: translateY(-25vh);
         background: black;
         border-radius: 1rem;
         transition-duration: 0.25s;
@@ -262,7 +262,7 @@
 @keyframes show_Dashboard
 {
     0% { bottom: -50vh; opacity: 0; }
-    100% { bottom: 5vh; opacity: 1; }
+    100% { bottom: -5vh; opacity: 1; }
 }
     
     }
