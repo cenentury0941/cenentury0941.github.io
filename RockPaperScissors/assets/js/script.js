@@ -39,18 +39,28 @@ function Play(choice)
         document.getElementById("sb").classList.add("desel");
     }
 
+
+
+    var notif_elem = document.getElementById("notification");
+    
+
     if( computerChoice === playerChoice )
     {
-
+        notif_elem.innerHTML = "Draw" ;
     }
     else if( (computer_value === 0 && playerChoice === 2) || (computer_value === 1 && playerChoice === 0) || ( computerChoice === 2 && playerChoice === 1 ) )
     {
         computer_score += 1 ;
+        notif_elem.innerHTML = "CPU Won" ;
     }
     else 
     {
         player_score += 1 ;
+        notif_elem.innerHTML = "You Won" ;
     }
+
+
+
 
     if( computerChoice === 0 )
     {
@@ -68,8 +78,13 @@ function Play(choice)
     }
 
     document.getElementById("playarea").style.animationName = "RevealBot" + tally ;
+    notif_elem.style.animationName = "showNotif" + tally ;
+
     tally += 1;
     tally %= 2 ;
+
+
+
 
     setTimeout( () => {
 

@@ -1,0 +1,214 @@
+@media (orientation: portrait) {
+    html {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 99vw;
+        background: #696969;
+        gap: 10px;
+        overflow: hidden;
+        justify-content: flex-start;
+        min-height: 100vh;
+    }  
+
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+        width: 99vw;
+        background: #696969;
+        gap: 15px;
+        overflow: hidden;
+        min-height: 100vh;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .bot_cont{
+        background-size: cover;
+        height: 45vh;
+        width: 95vw;
+        transition-duration: 0.5s;
+        flex-shrink: 0;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 5px #00000039;
+        margin: 1vw;
+        background-position: center;
+    }
+    
+    
+    
+    .PlayArea{
+        display: flex;
+        flex-direction: column; 
+        height: 96vh;
+        width: 95vw;
+        box-shadow: 0px 0px 10px 5px #00000039;
+        transition-duration: 0.5s;
+        flex-shrink: 0;
+        margin: 1vh;
+        margin-bottom: 2vh;
+        background: #EEEEEE;
+        border-radius: 15px;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        overflow: hidden;
+    }
+    
+    
+    
+    .ScoreArea{
+        display: flex;
+        flex-direction: row; 
+        height: 50%;
+        width: 100%;
+        background: rgb(141, 130, 255);
+        align-items: center;
+        justify-content: space-around; 
+    }
+    
+    .ButtonArea{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around; 
+        height: 50%;
+        width: 100%;
+        box-shadow: 0px 0px 10px 5px #00000069;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    @keyframes RevealBot0 {
+        10% { height: 96vh ; }
+        20% { height: 50vh;  }
+        80% { height: 50vh; }
+        90% { height: 96vh; }
+    }
+    
+    
+    @keyframes RevealBot1 {
+        10% { height: 96vh ; }
+        20% { height: 50vh;  }
+        80% { height: 50vh; }
+        90% { height: 96vh; }
+    }
+    
+    .Button{
+        display: flex;
+        height: 39%;
+        aspect-ratio: 1;
+        min-height: 25vw;
+        background: #ffffff;
+        border-radius: 39px;
+        box-shadow: 0px 0px 10px 5px #00000039;
+        transition-duration: 0.2s;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    
+    .Button > img{
+        height: 100%;
+        width: 100%;
+        transition-duration: 0.1s;
+    }
+
+    .Button:hover{
+        box-shadow: 0px 0px 10px 5px #000000AA;
+        transform: scale(1.05);
+    }
+    
+    .ScoreCard{
+        display: flex;
+        width: 30%;
+        aspect-ratio: 1;
+        background: #ffffff;
+        border-radius: 39px;
+        box-shadow: 0px 0px 10px 5px #00000039;
+        align-items: center;
+        justify-content: space-around; 
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .ScoreCard > h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 600%;
+        margin: 0px;
+    }
+    
+    
+    .ScoreCard > h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 390%;
+        margin: 0px;
+    }
+    
+    
+    
+    
+    .rock{
+        background: url("../images/rock.png");
+        background-size: contain;
+    }
+    
+    .paper{
+        background: url("../images/paper.png");
+        background-size: contain;
+    }
+    
+    .scissors{
+        background: url("../images/scissors.png");
+        background-size: contain;
+    }
+    
+    .Desel
+    {
+        background: #393939;
+        opacity: 0.5;
+    }
+
+    .desel > img{
+        opacity: 0;
+    }
+
+
+
+    .Notif{
+        height: fit-content;
+        width: fit-content;
+        align-self: center;
+        justify-self: center;
+        position: absolute;
+        transform: translateY(20vw) scaleX(0) scaleY(0.25);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 3vh;
+        padding: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px 1px black;
+        border-radius: 2vw;
+
+        animation-duration: 3s;
+        animation-delay: 2.5s;
+        animation-iteration-count: 1;
+
+        z-index: 55;
+     }
+
+     @keyframes showNotif0 {
+        0% { transform: translateY(20vw) scaleX(0) scaleY(0.25) }
+        5% { transform: translateY(20vw) scaleX(1) scaleY(1) }
+        75% { transform: translateY(20vw) scaleX(1) scaleY(1) }
+        80% { transform: translateY(20vw) scaleX(0) scaleY(0.25) }
+     }
+
+     @keyframes showNotif1 {
+        0% { transform: translateY(20vw) scaleX(0) scaleY(0.25) }
+        5% { transform: translateY(20vw) scaleX(1) scaleY(1) }
+        75% { transform: translateY(20vw) scaleX(1) scaleY(1) }
+        80% { transform: translateY(20vw) scaleX(0) scaleY(0.25) }
+     }
+
+
+}
