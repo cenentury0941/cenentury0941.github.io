@@ -112,7 +112,7 @@
         position: absolute;
         align-self: center;
         height: 150vh;
-        width: 390vw;
+        width: 100vw;
         max-height: 100vh;
         z-index: 1;
         overflow: hidden;
@@ -124,7 +124,7 @@
     }
     
     .rotmap{
-        width: 250vw;
+        width: 390vw;
         display: flex;
         aspect-ratio: 1;
         background: url("../images/galaxy_big_dark.png");
@@ -133,7 +133,7 @@
         background-position: center;
         transition-duration: 1s;
         transition-timing-function:linear;
-        max-height: 100vh;
+        scale: 2;
     }
     
     .galaxy > img{
@@ -145,8 +145,8 @@
     }
     
     .star{
-        height: 1px;
-        width: 1px;
+        height: 3px;
+        width: 3px;
         background: white;
         background-size: cover;
         background-position: center;
@@ -161,7 +161,7 @@
         */transform:  rotateZ( 0deg ) rotateX(0deg) ;
         z-index: 500;
         transition-duration: 1s;
-        border: 3px solid #DDDDDD;
+        border: 1px solid #DDDDDD;
         border-radius: 100px;
         transform-origin: center;
     }
@@ -438,7 +438,7 @@
         overflow: scroll;
         flex-direction: column;
         justify-content: end;
-        gap:10px;
+        gap:1vh;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 10px;
@@ -459,10 +459,8 @@
         height: fit-content;
         width: 100%;
         box-shadow: 0px 0px 5px 0px #393939;
-        border-radius: 10px;
-        padding: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        border-radius: 3vw;
+        padding: 2vw;
     }
     
     .Important
@@ -497,15 +495,21 @@
         display: flex;
         flex-direction: row;
         height: 15%;
-        border-radius: 10px;
+        border-radius: 2vw;
         flex-shrink: 0;
         margin-top: 3%;
-        padding-left: 10px;
-        padding-right: 10px;
-        gap:10px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        gap:2vw;
     }
     
+    .Message_Input > button {
+        font-size: 2vh;
+    }
     
+    .Message_Input > input {
+        font-size: 2vh;
+    }
     
     .Stone_Box
     {
@@ -560,20 +564,24 @@
     }
     
     .NavStar{
-        height: 0.5vw;
-        width: 0.5vw;
+        height: 9vw;
+        width: 9vw;
         background: white;
         background-size: cover;
         background-position: center;
         transform:  rotateZ( 0deg ) rotateX(0deg) ;
         z-index: 500;
-        transition-duration: 0.1s;
-        border: 5vw solid #DDDDDD;
+        transition-duration: 0s;
+        border: 1vw solid #DDDDDD;
         border-radius: 100px;
     }
     
     .NavStar:active{
         opacity: 0.5;
+    }    
+    
+    .NavStar:hover{
+        box-shadow: 0px 0px 4vh 0px white;
     }
     
     .Stone_Img
@@ -655,8 +663,8 @@
     }
 
     @keyframes showViewButton {
-        0% { transform: translateX(30vw); }
-        100% { transform: translateX(0vw); }
+        0% { opacity: 0; }
+        100% { opacity: 1; }
     }
 
     .CloseButton:active
@@ -683,43 +691,47 @@
     .power{
         transform: scale(10);
         border: 1px solid violet;
-        box-shadow: 0px 0px 1px 0px rgb(242, 89, 242);
+        box-shadow: 0px 0px 2vh 0px rgb(242, 89, 242);
         background: violet;
     }
     
     .space{
         transform: scale(10);
         border: 1px solid lightblue;
-        box-shadow: 0px 0px 1px 0px rgb(97, 193, 225);
+        box-shadow: 0px 0px 2vh 0px rgb(97, 193, 225);
         background: lightblue;
     }
     
     .reality{
         transform: scale(10);
         border: 1px solid lightcoral;
-        box-shadow: 0px 0px 1px 0px rgb(240, 81, 81);
+        box-shadow: 0px 0px 2vh 0px rgb(240, 81, 81);
         background-color: lightcoral;
     }
     
     .soul{
         transform: scale(10);
         border: 1px solid orange;
-        box-shadow: 0px 0px 1px 0px rgb(216, 92, 3);
+        box-shadow: 0px 0px 2vh 0px rgb(216, 92, 3);
         background: orange;
     }
     
     .time{
         transform: scale(10);
         border: 1px solid lime;
-        box-shadow: 0px 0px 1px 0px rgb(1, 224, 1);
+        box-shadow: 0px 0px 2vh 0px rgb(1, 224, 1);
         background: lime;
     }
     
     .mind{
         transform: scale(10);
         border: 1px solid yellow;
-        box-shadow: 0px 0px 1px 0px rgb(215, 215, 2);
+        box-shadow: 0px 0px 2vh 0px rgb(215, 215, 2);
         background: yellow;
+    }
+
+    .Stone_Nav > .NavStar{
+        scale: 0.1;
     }
     
     .power:hover, .mind:hover, .time:hover, .soul:hover, .reality:hover, .space:hover{
