@@ -144,11 +144,15 @@
 		const bc = new BroadcastChannel('channel');
 		console.log("Channel Created");
 		bc.onmessage = (eventMessage) => {
-		
+			console.log( "MSG : " + eventMessage );
 			if( eventMessage === "true" )
-			{ speaking = true; }
+			{ speaking = true; 
+			  console.log( "SPEAKING T : " + speaking );
+			}
 			else
-			{ speaking = false; }
+			{ speaking = false;
+			  console.log( "SPEAKING F : " + speaking ); 
+			}
 
 		}
 
