@@ -115,6 +115,27 @@
 <link id='-gd-engine-icon' rel='icon' type='image/png' href='index.icon.png' />
 <link rel='apple-touch-icon' href='index.apple-touch-icon.png'/>
 
+
+<script type='text/javascript'>
+
+	var speaking = false;
+	const bc = new BroadcastChannel('channel');
+	console.log("Channel Created");
+	bc.onmessage = (eventMessage) => {
+		console.log( "MSG : " + eventMessage );
+		if( eventMessage.data === "true" )
+		{ speaking = true; 
+		  console.log( "SPEAKING T : " + speaking );
+		}
+		else
+		{ speaking = false;
+		  console.log( "SPEAKING F : " + speaking ); 
+		}
+
+	}
+
+</script>
+
 </head>
 <body>
 	<canvas id='canvas'>
@@ -137,27 +158,6 @@
 	</div>
 
 	<script type='text/javascript' src='index.js'></script>
-
-	<script type='text/javascript'>
-
-		var speaking = false;
-		const bc = new BroadcastChannel('channel');
-		console.log("Channel Created");
-		bc.onmessage = (eventMessage) => {
-			console.log( "MSG : " + eventMessage );
-			if( eventMessage === "true" )
-			{ speaking = true; 
-			  console.log( "SPEAKING T : " + speaking );
-			}
-			else
-			{ speaking = false;
-			  console.log( "SPEAKING F : " + speaking ); 
-			}
-
-		}
-
-	</script>
-
 	<script type='text/javascript'>//<![CDATA[
 
 		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":10264624,"index.wasm":18798118},"focusCanvas":true,"gdnativeLibs":[]};
