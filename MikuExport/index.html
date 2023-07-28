@@ -143,7 +143,6 @@
 	const channel = new BroadcastChannel('my_channel');
 	channel.onmessage = event => {
   	const data = event.data;
-  	console.log('Received message:', data);
 	speaking = data === "true";
 	};
 
