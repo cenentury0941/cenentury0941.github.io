@@ -140,7 +140,7 @@
 	<script type='text/javascript'>
 
 		var values = [ "0,1,1","0,1,1","0,1,1","0,1,1","0,1,1","39","39", ];
-		const channel = new BroadcastChannel('floor_channel');
+		const channel = new BroadcastChannel('vals_channel');
 		channel.onmessage = event => {
 		  const data = event.data;
 		  values = data.split("|");
