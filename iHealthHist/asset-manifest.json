@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1edb7af.css",
-    "main.js": "/static/js/main.0f4362c8.js",
-    "static/js/787.5474f8e5.chunk.js": "/static/js/787.5474f8e5.chunk.js",
-    "index.html": "/index.html",
-    "main.a1edb7af.css.map": "/static/css/main.a1edb7af.css.map",
-    "main.0f4362c8.js.map": "/static/js/main.0f4362c8.js.map",
-    "787.5474f8e5.chunk.js.map": "/static/js/787.5474f8e5.chunk.js.map"
+    "main.css": "/iHealthHist/static/css/main.a1edb7af.css",
+    "main.js": "/iHealthHist/static/js/main.608f8d6b.js",
+    "static/js/787.5474f8e5.chunk.js": "/iHealthHist/static/js/787.5474f8e5.chunk.js",
+    "index.html": "/iHealthHist/index.html",
+    "main.a1edb7af.css.map": "/iHealthHist/static/css/main.a1edb7af.css.map",
+    "main.608f8d6b.js.map": "/iHealthHist/static/js/main.608f8d6b.js.map",
+    "787.5474f8e5.chunk.js.map": "/iHealthHist/static/js/787.5474f8e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1edb7af.css",
-    "static/js/main.0f4362c8.js"
+    "static/js/main.608f8d6b.js"
   ]
 }
