@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conjure/static/css/main.83fc1c4b.css",
-    "main.js": "/conjure/static/js/main.0d7c8ef4.js",
+    "main.js": "/conjure/static/js/main.d5658814.js",
     "static/js/787.d5d9f1c0.chunk.js": "/conjure/static/js/787.d5d9f1c0.chunk.js",
     "static/media/loading.gif": "/conjure/static/media/loading.81e4bae9e6debe2ca0ee.gif",
     "static/media/botIcon.png": "/conjure/static/media/botIcon.14967ed107a406b184c7.png",
@@ -15,11 +15,11 @@
     "static/media/mic.png": "/conjure/static/media/mic.0a6a10c7afdfbc883b06.png",
     "index.html": "/conjure/index.html",
     "main.83fc1c4b.css.map": "/conjure/static/css/main.83fc1c4b.css.map",
-    "main.0d7c8ef4.js.map": "/conjure/static/js/main.0d7c8ef4.js.map",
+    "main.d5658814.js.map": "/conjure/static/js/main.d5658814.js.map",
     "787.d5d9f1c0.chunk.js.map": "/conjure/static/js/787.d5d9f1c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83fc1c4b.css",
-    "static/js/main.0d7c8ef4.js"
+    "static/js/main.d5658814.js"
   ]
 }
