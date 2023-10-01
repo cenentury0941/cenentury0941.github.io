@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/conjure/static/css/main.94faf5ec.css",
-    "main.js": "/conjure/static/js/main.4d07a379.js",
+    "main.css": "/conjure/static/css/main.83fc1c4b.css",
+    "main.js": "/conjure/static/js/main.0d7c8ef4.js",
     "static/js/787.d5d9f1c0.chunk.js": "/conjure/static/js/787.d5d9f1c0.chunk.js",
+    "static/media/loading.gif": "/conjure/static/media/loading.81e4bae9e6debe2ca0ee.gif",
+    "static/media/botIcon.png": "/conjure/static/media/botIcon.14967ed107a406b184c7.png",
     "static/media/definition.png": "/conjure/static/media/definition.c820302341d71801b895.png",
     "static/media/flow.png": "/conjure/static/media/flow.0edd5a00c99573caa3f7.png",
     "static/media/path.png": "/conjure/static/media/path.8c630371a16d935cac2e.png",
     "static/media/logo_orange_alpha.png": "/conjure/static/media/logo_orange_alpha.91364081b656e379be31.png",
     "static/media/path2.png": "/conjure/static/media/path2.f9427680426e943218a5.png",
-    "static/media/logo.svg": "/conjure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/close.png": "/conjure/static/media/close.a42c7b961e10b1cba11e.png",
+    "static/media/notts.png": "/conjure/static/media/notts.678f968968b63c3658f5.png",
+    "static/media/mic.png": "/conjure/static/media/mic.0a6a10c7afdfbc883b06.png",
     "index.html": "/conjure/index.html",
-    "main.94faf5ec.css.map": "/conjure/static/css/main.94faf5ec.css.map",
-    "main.4d07a379.js.map": "/conjure/static/js/main.4d07a379.js.map",
+    "main.83fc1c4b.css.map": "/conjure/static/css/main.83fc1c4b.css.map",
+    "main.0d7c8ef4.js.map": "/conjure/static/js/main.0d7c8ef4.js.map",
     "787.d5d9f1c0.chunk.js.map": "/conjure/static/js/787.d5d9f1c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94faf5ec.css",
-    "static/js/main.4d07a379.js"
+    "static/css/main.83fc1c4b.css",
+    "static/js/main.0d7c8ef4.js"
   ]
 }
