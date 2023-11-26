@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iHealthHistPatient/static/css/main.6be2d5ce.css",
-    "main.js": "/iHealthHistPatient/static/js/main.e9fe6581.js",
+    "main.css": "/iHealthHistPatient/static/css/main.9c842c04.css",
+    "main.js": "/iHealthHistPatient/static/js/main.684849df.js",
     "static/js/787.5474f8e5.chunk.js": "/iHealthHistPatient/static/js/787.5474f8e5.chunk.js",
     "static/media/loading.gif": "/iHealthHistPatient/static/media/loading.81e4bae9e6debe2ca0ee.gif",
     "static/media/botIcon.png": "/iHealthHistPatient/static/media/botIcon.14967ed107a406b184c7.png",
@@ -10,12 +10,12 @@
     "static/media/mic.png": "/iHealthHistPatient/static/media/mic.0a6a10c7afdfbc883b06.png",
     "static/media/tts.png": "/iHealthHistPatient/static/media/tts.50677571bbbefe8fabbc.png",
     "index.html": "/iHealthHistPatient/index.html",
-    "main.6be2d5ce.css.map": "/iHealthHistPatient/static/css/main.6be2d5ce.css.map",
-    "main.e9fe6581.js.map": "/iHealthHistPatient/static/js/main.e9fe6581.js.map",
+    "main.9c842c04.css.map": "/iHealthHistPatient/static/css/main.9c842c04.css.map",
+    "main.684849df.js.map": "/iHealthHistPatient/static/js/main.684849df.js.map",
     "787.5474f8e5.chunk.js.map": "/iHealthHistPatient/static/js/787.5474f8e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be2d5ce.css",
-    "static/js/main.e9fe6581.js"
+    "static/css/main.9c842c04.css",
+    "static/js/main.684849df.js"
   ]
 }
