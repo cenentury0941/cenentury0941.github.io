@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/dehr/static/js/main.2c4018b3.js",
+    "main.css": "/dehr/static/css/main.736996bc.css",
+    "main.js": "/dehr/static/js/main.213eabcd.js",
     "static/js/27.82cf5c1c.chunk.js": "/dehr/static/js/27.82cf5c1c.chunk.js",
     "index.html": "/dehr/index.html"
   },
   "entrypoints": [
-    "static/js/main.2c4018b3.js"
+    "static/css/main.736996bc.css",
+    "static/js/main.213eabcd.js"
   ]
 }
