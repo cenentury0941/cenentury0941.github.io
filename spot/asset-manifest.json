@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/spot/static/css/main.3304c0b9.css",
-    "main.js": "/spot/static/js/main.e79c6773.js",
+    "main.css": "/spot/static/css/main.52199e4c.css",
+    "main.js": "/spot/static/js/main.a0b87c93.js",
     "static/js/453.bcd0523b.chunk.js": "/spot/static/js/453.bcd0523b.chunk.js",
     "static/media/mapTileFinal.png": "/spot/static/media/mapTileFinal.5e3ac687f4c612a468c0.png",
     "static/media/crosshair3_alpha.png": "/spot/static/media/crosshair3_alpha.332029f92c218d550539.png",
-    "static/media/UniSansThin.otf": "/spot/static/media/UniSansThin.946fca7c941bfb6639cc.otf",
+    "static/media/UniSansThinCAPS.ttf.svg": "/spot/static/media/UniSansThinCAPS.ttf.2fede40e6fb97013797f.svg",
+    "static/media/UniSansThinCAPS.ttf.eot": "/spot/static/media/UniSansThinCAPS.ttf.ad35130522297a1094c3.eot",
     "static/media/mapbg_normal.jpg": "/spot/static/media/mapbg_normal.899cb53297796037b1f9.jpg",
+    "static/media/UniSansThinCAPS.ttf.woff": "/spot/static/media/UniSansThinCAPS.ttf.e759a748710e8246ce79.woff",
     "static/media/crosshair_alpha.png": "/spot/static/media/crosshair_alpha.1a5f4623d779ea046400.png",
     "index.html": "/spot/index.html",
-    "main.3304c0b9.css.map": "/spot/static/css/main.3304c0b9.css.map",
-    "main.e79c6773.js.map": "/spot/static/js/main.e79c6773.js.map",
+    "main.52199e4c.css.map": "/spot/static/css/main.52199e4c.css.map",
+    "main.a0b87c93.js.map": "/spot/static/js/main.a0b87c93.js.map",
     "453.bcd0523b.chunk.js.map": "/spot/static/js/453.bcd0523b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3304c0b9.css",
-    "static/js/main.e79c6773.js"
+    "static/css/main.52199e4c.css",
+    "static/js/main.a0b87c93.js"
   ]
 }
