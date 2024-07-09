@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(evt) {
+
+        console.log("DOCUMENT LOADED");
+
+        var sceneEl = document.querySelector('a-scene');
+
+        sceneEl.addEventListener('loaded', function(evt) {
+            console.log("SCENE LOADED");
+            var newCamera = new THREE.PerspectiveCamera();
+            newCamera.near = 0.1;
+            newCamera.far = 100;
+            sceneEl.camera = newCamera;
+        });
+        });
+    </script>
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs renderer="antialias: true; logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;">
+
+            <a-assets>
+                <a-asset-item id="MakuhariChan" src="MakuhariChan.gltf"></a-asset-item>
+            </a-assets>
+            
+            <a-assets>
+                <a-asset-item id="Stage" src="stage.gltf"></a-asset-item>
+            </a-assets>
+
+            <a-assets>
+                <a-asset-item id="Loading" src="Loading.gltf"></a-asset-item>
+            </a-assets>
+
+            <a-marker type="pattern" smooth="true" smooth-count="10" smooth-tolerance="0.01" smooth-threshold="3" preset="custom"  url="patterns/pattern-makuhari_black.patt">
+                <a-entity
+                position="0 0 0.75"
+                scale="0.5 0.5 0.5"
+                gltf-model="#MakuhariChan"
+                animation-mixer="clip: Dance;"
+                id="MakuhariEntity"
+                ></a-entity>
+
+                <a-entity
+                position="0 0 0.75"
+                scale="0.5 0.5 0.5"
+                gltf-model="#Stage"
+                id="Stage"
+                ></a-entity>
+
+                </a-entity>
+
+            </a-marker>
+                    
+            <a-marker type="pattern" smooth="true" smooth-count="15" preset="custom"  url="patterns/pattern-L.patt">
+                <a-entity
+                position="0 1 0"
+                scale="1 1 1"
+                gltf-model="#Loading"
+                ></a-entity>
+            </a-marker>
+
+        <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/arstage/static/css/main.e8ac6b01.css",
+    "main.js": "/arstage/static/js/main.70b5c0d4.js",
+    "static/js/602.785be1dd.chunk.js": "/arstage/static/js/602.785be1dd.chunk.js",
+    "static/js/672.a06e89a0.chunk.js": "/arstage/static/js/672.a06e89a0.chunk.js",
+    "static/js/453.06794b16.chunk.js": "/arstage/static/js/453.06794b16.chunk.js",
+    "static/media/01_fhd.mp4": "/arstage/static/media/01_fhd.99baa52337d8e85226aa.mp4",
+    "static/media/02_fhd.mp4": "/arstage/static/media/02_fhd.65861429380b680303c5.mp4",
+    "static/media/01.gif": "/arstage/static/media/01.6af7e73f110ad03e599e.gif",
+    "static/media/stage_bg.png": "/arstage/static/media/stage_bg.0cdd810ec76480d9fcd0.png",
+    "static/media/scan.png": "/arstage/static/media/scan.6de3dc3ebcb4188c0df5.png",
+    "static/media/Title_Text.jpg": "/arstage/static/media/Title_Text.b3374721dea7626f741b.jpg",
+    "static/media/view.png": "/arstage/static/media/view.a31af1294c8b3438c544.png",
+    "static/media/makuhari_alpha.png": "/arstage/static/media/makuhari_alpha.2e5c6251b7a13d5590e6.png",
+    "static/media/note2.png": "/arstage/static/media/note2.a22a9279fd444c4fb851.png",
+    "static/media/pattern-L.png": "/arstage/static/media/pattern-L.ae6d644b549963f6635c.png",
+    "index.html": "/arstage/index.html",
+    "main.e8ac6b01.css.map": "/arstage/static/css/main.e8ac6b01.css.map",
+    "main.70b5c0d4.js.map": "/arstage/static/js/main.70b5c0d4.js.map",
+    "602.785be1dd.chunk.js.map": "/arstage/static/js/602.785be1dd.chunk.js.map",
+    "672.a06e89a0.chunk.js.map": "/arstage/static/js/672.a06e89a0.chunk.js.map",
+    "453.06794b16.chunk.js.map": "/arstage/static/js/453.06794b16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ac6b01.css",
+    "static/js/main.70b5c0d4.js"
+  ]
+}
