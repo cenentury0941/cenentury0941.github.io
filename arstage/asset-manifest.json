@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arstage/static/css/main.fac60c97.css",
-    "main.js": "/arstage/static/js/main.cd11f611.js",
+    "main.css": "/arstage/static/css/main.e46dfacd.css",
+    "main.js": "/arstage/static/js/main.a20c5ea3.js",
     "static/js/602.785be1dd.chunk.js": "/arstage/static/js/602.785be1dd.chunk.js",
     "static/js/672.a06e89a0.chunk.js": "/arstage/static/js/672.a06e89a0.chunk.js",
     "static/js/453.06794b16.chunk.js": "/arstage/static/js/453.06794b16.chunk.js",
@@ -21,14 +21,14 @@
     "static/media/note2.png": "/arstage/static/media/note2.a22a9279fd444c4fb851.png",
     "static/media/pattern-makuhari_black.png": "/arstage/static/media/pattern-makuhari_black.69f8bcaadf1a430f11b5.png",
     "index.html": "/arstage/index.html",
-    "main.fac60c97.css.map": "/arstage/static/css/main.fac60c97.css.map",
-    "main.cd11f611.js.map": "/arstage/static/js/main.cd11f611.js.map",
+    "main.e46dfacd.css.map": "/arstage/static/css/main.e46dfacd.css.map",
+    "main.a20c5ea3.js.map": "/arstage/static/js/main.a20c5ea3.js.map",
     "602.785be1dd.chunk.js.map": "/arstage/static/js/602.785be1dd.chunk.js.map",
     "672.a06e89a0.chunk.js.map": "/arstage/static/js/672.a06e89a0.chunk.js.map",
     "453.06794b16.chunk.js.map": "/arstage/static/js/453.06794b16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fac60c97.css",
-    "static/js/main.cd11f611.js"
+    "static/css/main.e46dfacd.css",
+    "static/js/main.a20c5ea3.js"
   ]
 }
