@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1140df9b.css",
+    "main.js": "./static/js/main.c84cc25c.js",
+    "static/js/787.95b774b0.chunk.js": "./static/js/787.95b774b0.chunk.js",
+    "static/media/mapgen.gif": "./static/media/mapgen.390856b72fe22bffa635.gif",
+    "static/media/gen.gif": "./static/media/gen.3f0494b1a52e724ed879.gif",
+    "static/media/tree.gif": "./static/media/tree.73ce1856c9aa3974bba4.gif",
+    "static/media/image2.png": "./static/media/image2.65a97cd5f6bd9d7f8409.png",
+    "static/media/image4.png": "./static/media/image4.53a34dc08a7b9d5e04b0.png",
+    "static/media/loading.gif": "./static/media/loading.81e4bae9e6debe2ca0ee.gif",
+    "static/media/TextureDemo.png": "./static/media/TextureDemo.a856315263bf9ad886eb.png",
+    "static/media/sandbox.png": "./static/media/sandbox.a9b53802db732aee5c82.png",
+    "static/media/ue.png": "./static/media/ue.e72560f1c98df4a5b38a.png",
+    "static/media/ArrowsTest.png": "./static/media/ArrowsTest.699e831d6455cd6232b6.png",
+    "static/media/stage3.jpg": "./static/media/stage3.4ea91a844205e1c4b290.jpg",
+    "static/media/image1.jpg": "./static/media/image1.30c610bb28c57ec24969.jpg",
+    "static/media/stage2.jpg": "./static/media/stage2.dabefba723fcb08e48b2.jpg",
+    "static/media/firefox1.png": "./static/media/firefox1.c19bb686dd55ff72e858.png",
+    "static/media/Home.jpg": "./static/media/Home.991d84406ea41ddb11fb.jpg",
+    "static/media/firefox2.png": "./static/media/firefox2.9fbcbcfb77095829f8a9.png",
+    "static/media/stage1.jpg": "./static/media/stage1.926e9e7b66c7ee8d39c2.jpg",
+    "static/media/image3.jpg": "./static/media/image3.cbf38b41bf0e3af300af.jpg",
+    "static/media/ProcGenCenter.png": "./static/media/ProcGenCenter.12f8ae770d9a2d2654a9.png",
+    "static/media/edge.png": "./static/media/edge.8c74f8d928de2af5b8e0.png",
+    "static/media/Title.png": "./static/media/Title.2e32514829a122abdd45.png",
+    "static/media/chrome.png": "./static/media/chrome.06fbad0539562eb73826.png",
+    "static/media/controls.png": "./static/media/controls.540996af011ceae9a34b.png",
+    "static/media/About.png": "./static/media/About.546d927f525d047d6c77.png",
+    "static/media/npcair.png": "./static/media/npcair.e67b5e34744d4f97a09c.png",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.1140df9b.css.map": "./static/css/main.1140df9b.css.map",
+    "main.c84cc25c.js.map": "./static/js/main.c84cc25c.js.map",
+    "787.95b774b0.chunk.js.map": "./static/js/787.95b774b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1140df9b.css",
+    "static/js/main.c84cc25c.js"
+  ]
+}
