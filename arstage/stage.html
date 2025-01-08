@@ -23,11 +23,11 @@
         <a-scene embedded arjs renderer="antialias: true; logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;">
 
             <a-assets>
-                <a-asset-item id="MakuhariChan" src="MakuhariChan.gltf"></a-asset-item>
+                <a-asset-item id="MakuhariChan" src="MakuhariChan_Pongal.gltf"></a-asset-item>
             </a-assets>
             
             <a-assets>
-                <a-asset-item id="Stage" src="stage.gltf"></a-asset-item>
+                <a-asset-item id="Stage" src="stage_Pongal.gltf"></a-asset-item>
             </a-assets>
 
             <a-assets>
@@ -37,15 +37,15 @@
             <a-marker type="pattern" smooth="true" smooth-count="10" smooth-tolerance="0.01" smooth-threshold="3" preset="custom"  url="patterns/pattern-makuhari_black.patt">
                 <a-entity
                 position="0 0 0.75"
-                scale="0.5 0.5 0.5"
+                scale="0.35 0.35 0.35"
                 gltf-model="#MakuhariChan"
-                animation-mixer="clip: Dance; loop: false"
+                animation-mixer="clip: Dance"
                 id="MakuhariEntity"
                 ></a-entity>
 
                 <a-entity
-                position="0 0 0.75"
-                scale="0.5 0.5 0.5"
+                position="0 -0.5 0.85"
+                scale="0.3 0.3 0.3"
                 gltf-model="#Stage"
                 id="Stage"
                 ></a-entity>
